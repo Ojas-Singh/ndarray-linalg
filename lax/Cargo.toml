@@ -25,7 +25,7 @@ netlib-system = ["netlib-src/system"]
 openblas-static = ["openblas-src/static"]
 openblas-system = ["openblas-src/system"]
 
-intel-mkl-static = ["intel-mkl-src/mkl-static-lp64-seq", "intel-mkl-src/download"]
+intel-mkl-static = ["intel-mkl-src/mkl-static-ilp64-iomp", "intel-mkl-src/download"]
 intel-mkl-system = ["intel-mkl-src/mkl-dynamic-lp64-seq"]
 
 [dependencies]
