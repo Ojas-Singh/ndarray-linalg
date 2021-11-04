@@ -4,6 +4,7 @@ ndarray-linalg
 [![docs.rs](https://docs.rs/ndarray-linalg/badge.svg)](https://docs.rs/ndarray-linalg)
 
 Linear algebra package for Rust with [ndarray](https://github.com/rust-ndarray/ndarray) based on external LAPACK implementations.
+This fork implemented mkl-static-lp64-iomp for intel-mkl-src.
 
 Examples
 ---------
